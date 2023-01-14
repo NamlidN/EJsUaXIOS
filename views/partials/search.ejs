@@ -1,0 +1,10 @@
+<header class="SearchBar">
+    <h1>MovieMagic</h1>
+    <form action="/search" method="get">
+        <%let inputFieldValue="" %>
+            <label for="searchInput"></label>
+            <input name="searchInput" value="<%= inputFieldValue %>" id="searchInput" type="text" placeholder="Suchen">
+            <button type="submit">Search</button>
+    </form>
+    <!-- <a href=<%=`/genre/24sf`%>>Search</a> -->
+</header>
